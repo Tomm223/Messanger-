@@ -1,0 +1,100 @@
+.block {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   background-color: #eee;
+}
+
+.backImg {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 0;
+
+   &Item {
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+   }
+
+   &Gradient {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
+      height: 100%;
+      background-color: rgba($color: #242832, $alpha: .1);
+   }
+}
+
+.chat {
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   padding: 0 15px;
+   display: flex;
+   flex-direction: column;
+}
+
+.message,
+.messageR {
+   z-index: 1;
+   padding: 5px;
+   background-color: #6E7F80;
+   margin-bottom: 1em;
+   border-radius: 1em;
+   max-width: 80%;
+   min-width: 40%;
+   align-self: flex-start;
+
+   &Head {
+      display: flex;
+      align-items: center;
+   }
+}
+
+.messageR {
+   align-self: flex-end;
+}
+
+.img {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   width: 40px;
+   height: 40px;
+   font-size: 25px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff;
+   margin-right: 1rem;
+}
+
+.name {
+   font-size: 22px;
+   color: #000;
+
+}
+
+.msg {
+   margin-left: .1em;
+   padding: 7px;
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 95%;
+
+
+   p {
+      font-size: 18px;
+      line-height: 22px;
+      max-width: 100%;
+      margin: 0;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+   }
+}

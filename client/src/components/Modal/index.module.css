@@ -1,0 +1,58 @@
+.back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(142, 138, 126, 0.5);
+  z-index: 1055;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  width: 500px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: auto;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 18px;
+  border: 2px solid #8E8A7E;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.select {
+  font-size: 18px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.btn {
+  margin: 0 auto;
+  padding: 0.7rem 5rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  background-color: aqua;
+  cursor: pointer;
+  border: none;
+  border-radius: 5rem;
+  font-size: 22px;
+}
+.btn:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}/*# sourceMappingURL=index.module.css.map */
