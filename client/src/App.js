@@ -27,7 +27,7 @@ function App() {
   }, [messagesLimit])
 
   const dispatch = useDispatch()
-  const [modal, setModal] = useState(true)
+  const [modal, setModal] = useState(false)
   const [form, setForm] = useState()
   const user = useSelector(state => state.user)
   const [chatList, setChatList] = useState([])
