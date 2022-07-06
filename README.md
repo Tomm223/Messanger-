@@ -1,3 +1,7 @@
+
+### client start =>  npm start
+### server start => npm run dev
+
 client =>  npm start
 server => npm run dev
 
