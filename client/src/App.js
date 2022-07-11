@@ -9,6 +9,7 @@ import { useQuery } from '@apollo/client';
 import { GET_ALL_USERS, GET_USER_BY_ID } from './query/user';
 import { GET_MESSAGES_LIMIT } from './query/message';
 import Phone from './components/phone';
+import axios from 'axios'
 
 function App() {
   const { data, loading, error } = useQuery(GET_ALL_USERS)  //(GET_USER_BY_ID, { variables: { id: "c9f8948f-81b0-404d-b488-fb0fe415fd46" } })
@@ -36,9 +37,9 @@ function App() {
     ws.current = new WebSocket("ws://127.0.0.1:5000");
     if (form) {
       ws.current.onopen = () => {
-        if (isOpen(ws.current)) {
-          ws.current.send(JSON.stringify(form))
-        }
+        //if (isOpen(ws.current)) {
+        //ws.current.send(JSON.stringify(form))
+        //}
       }
       ws.current.onmessage = (message) => {
         const msg = JSON.parse(message.data)
@@ -62,6 +63,18 @@ function App() {
     }
   }, [form])
 
+  useEffect(() => {
+    const get = async () => {
+      try {
+        const resp = await axios.post('http://localhost:5000/registration', { email: 'dan@123', name: 'dan', password: '123' })
+        console.log('HEllo', resp);
+      }
+      catch (e) {
+        console.log(e);
+      }
+    }
+    get()
+  }, [])
   const send = (message) => {
     isOpen(ws.current) ? ws.current.send(message) : console.log('WS CLOSE');
   }

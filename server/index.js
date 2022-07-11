@@ -8,11 +8,15 @@ import expressWs from 'express-ws'
 const WSServer = expressWs(app)
 export const aWss = WSServer.getWss()
 import cors from 'cors'
+import dotenv from 'dotenv'
+dotenv.config()
 //assets
 import { connection } from './connection.js'
 import { messager } from './messager.js'
 import { mutationUsers } from './mutationUsers.js'
 import { root } from './graphqlRoot.js'
+import { rout } from './routes/index.js'
+import errorMiddleware from './middlewares/error-middleware.js'
 
 const PORT = process.env.PORT || 5000
 app.use(cors())
@@ -37,14 +41,14 @@ app.ws('/', (ws, req) => {
 })
 
 
-
+app.use(rout)
 app.use('/graphql', graphqlHTTP({
     graphiql: true,
     schema,
     rootValue: root
 }))
+app.use(errorMiddleware)
 
 
 app.listen(PORT, () => console.log(`server started on PORT ${PORT}`))
 
-//app.use('/')

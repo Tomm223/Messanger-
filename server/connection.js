@@ -1,5 +1,5 @@
 import fs, { existsSync, readFileSync, writeFile } from 'fs'
-import { broadcastConnection, getDataFile } from "./assets.js";
+import { broadcastConnection, getDataFile } from "./utils.js";
 
 export class connection {
    static connectionHandler = (ws, msg) => {

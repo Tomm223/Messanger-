@@ -1,6 +1,6 @@
 import fs, { existsSync, readFileSync, writeFile } from 'fs'
 import { connection } from "./connection.js";
-import { getDataFile, saveIn } from "./assets.js";
+import { getDataFile, saveIn } from "./utils.js";
 
 export class mutationUsers {
    static createUserHandler = async (ws, msg) => {

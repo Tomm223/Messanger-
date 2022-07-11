@@ -1,50 +1,22 @@
 [
    {
-      "id": "wmgomtronmobtmfb;d,v",
+      "id": "lfmbmbfgnfn2343",
+      "name": "fff",
+      "email": "fff",
+      "password": "fff"
+   },
+   {
+      "email": "daniil@123",
       "name": "daniil",
-      "password": "pass",
+      "password": "$2b$04$zKGQiuKC1L.86ZqTcSaR5uKQZOwQIcTOxvV072uwpKfBIYYCVNcI.",
+      "id": "2841ed42-5a42-46e7-bd22-ccb47eafd74d",
       "letter": "D"
    },
    {
-      "id": "0e6a58b2-89a8-4bfb-b0e6-8e6932c62241",
-      "name": "katik2",
-      "password": "pass",
-      "letter": "K"
-   },
-   {
-      "id": "c9f8948f-81b0-404d-b488-fb0fe415fd46",
-      "name": "katik3",
-      "password": "pass",
-      "letter": "K"
-   },
-   {
-      "id": "6e2e5990-ed75-40c4-b887-3bc9f235683e",
-      "name": "goga",
-      "password": "pass",
-      "letter": "G"
-   },
-   {
-      "id": "59479b6e-42a7-423b-abcc-b468c2e7ad69",
-      "name": "kate",
-      "password": "pass",
-      "letter": "K"
-   },
-   {
-      "id": "a12ccdb5-1ae6-48fd-a3a3-942ebeaa3e43",
-      "name": "din",
-      "password": "pass",
-      "letter": "D"
-   },
-   {
-      "id": "53a96f24-bf48-4ffb-b149-95fb3feb4db2",
-      "name": "Petr",
-      "password": "pass",
-      "letter": "P"
-   },
-   {
-      "id": "23537944-63fa-44f3-9df1-5d0f13e506fa",
-      "name": "danya",
-      "password": "123",
+      "email": "dan@123",
+      "name": "dan",
+      "password": "$2b$04$tsG5UuegV.nT2KrHPerVKOlKcw3IF2pi/XX/3.jilEN7.Ir9mWp1S",
+      "id": "f52cf319-53ca-4c7f-8e06-6a015a384289",
       "letter": "D"
    }
 ]
