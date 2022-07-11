@@ -3,12 +3,16 @@
 ### server start => npm run dev
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ЗДЕСЬ Я ПИШУ UPDATE В ВЕТКЕ MASTER
 
 
 =======
 ЭТО ВЕТКА FEATURE
 >>>>>>> 691a6f2 (new feature)
+=======
+ЭТО ВТОРОЙ КОММИТ FEATURE ВЕТКИ 
+>>>>>>> ca42b68 (2 commit feature)
 
 client =>  npm start
 server => npm run dev
