@@ -2,7 +2,7 @@
 ### client start =>  npm start
 ### server start => npm run dev
 
-ЭТО ВЕТКА FEATURE
+ЭТО ВТОРОЙ КОММИТ FEATURE ВЕТКИ 
 
 client =>  npm start
 server => npm run dev
