@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ЗДЕСЬ Я ПИШУ UPDATE В ВЕТКЕ MASTER
 
 
@@ -13,6 +14,9 @@
 =======
 ЭТО ВТОРОЙ КОММИТ FEATURE ВЕТКИ 
 >>>>>>> ca42b68 (2 commit feature)
+=======
+ЭТО ВТОРОЙ КОММИТ FEATURE ВЕТКИ 
+>>>>>>> ca42b68f30c544d70b31be95aa99e23663e88240
 
 client =>  npm start
 server => npm run dev
