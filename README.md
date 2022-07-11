@@ -2,9 +2,13 @@
 ### client start =>  npm start
 ### server start => npm run dev
 
+<<<<<<< HEAD
 ЗДЕСЬ Я ПИШУ UPDATE В ВЕТКЕ MASTER
 
 
+=======
+ЭТО ВЕТКА FEATURE
+>>>>>>> 691a6f2 (new feature)
 
 client =>  npm start
 server => npm run dev
